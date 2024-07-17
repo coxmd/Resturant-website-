@@ -21,12 +21,19 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className='footer-list'>
-                    <h2>Contact Info</h2>
-                    <p>+92 3189056206</p>
-                    <p>iambilalahmedraza@gmail.com</p>
-                    <p>Talagang Road Chakwal Punjab Pakistan</p>
-                </div>
+               <div className="footer-list">
+          <h2>Contact Info</h2>
+          <p style={{display :"flex", justifyContent:"inline"}}>
+            <img
+              src="https://img.freepik.com/premium-vector/whatsapp-icon-concept_23-2147897840.jpg"
+             style={{height: "22px", }}
+              alt=""
+            />
+            <a href="https://wa.me/+923189056206"> +92 3189056206</a>
+          </p>
+          <p> <a href="mailto:iambilalahmedraza@gmail.com">iambilalahmedraza@gmail.com</a></p>
+          <p>Talagang Road Chakwal Punjab Pakistan</p>
+        </div>
 
                 <div className='footer-list'>
                     <h2>Opening Hours</h2>
