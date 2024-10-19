@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { herobg,herobannerbg, burger6 } from '../assets'
 import bitterleaf from '../assets/Nigeria/bitterleafsoup.jpg'
 
@@ -22,7 +23,7 @@ function Hero() {
                 <h6>Eat Sleep And</h6>
                 <h1 className='hero-heading'>Supper delicious Food!</h1>
                 <p className='hero-discription'>Hungry Eye is a cutting-edge meal delivery service that brings your favorite restaurant meals straight to your doorstep.</p>
-                <button className='button'>Order Now</button>
+                <Link to="/shop"><button className="button">Order Now</button></Link>
             </div>
             <div  className='burger' style={burgerstyle}>
                 <img  src={bitterleaf} width={550} className="rounded-image"/>

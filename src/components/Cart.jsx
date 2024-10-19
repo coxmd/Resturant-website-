@@ -98,6 +98,9 @@ function Cart() {
     };
 
     const handleSubmitOrder = (e) => {
+        console.log('Service ID:', process.env.REACT_APP_SERVICE_ID);
+        console.log('Template ID:', process.env.REACT_APP_TEMPLATE_ID);
+        console.log('Public Key:', process.env.REACT_APP_PUBLIC_KEY);
         e.preventDefault();
         setIsSubmitting(true);
         setSubmitError('');
