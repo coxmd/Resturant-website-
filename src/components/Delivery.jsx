@@ -40,8 +40,8 @@ function Delivery() {
         <div className='delivery-container'>
             <div className='delivery-content'>
                 <h1>A Moments Of Delivered On <span id='span'>Right Time</span>  & Place</h1>
-                <p>The restaurants in Chakwal also catered by many Locals . while it is also known that many restaurants were run by families.</p>
-                <button className='button'>Order Now</button>
+                <p>Partnering with top restaurants across Lagos Island, we deliver fresh, mouthwatering meals to individuals, events, corporate settings, and organizations. Whether it’s for a celebration or a casual meal, every dish is crafted with care and love—promising flavors you've never experienced before.</p>
+                {/* <button className='button'>Order Now</button> */}
             </div>
             <div className='delivery-imgs' style={clouds} >
                 <img data-delivery-boy style={{ transform: `translateX(${deliveryBoyMove}px)` }} src={deliveryboy} alt="not found" width="350px" />

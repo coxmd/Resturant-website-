@@ -4,6 +4,12 @@
     padding-inline: 10rem;
     padding-block: 2rem;
 }
+
+.rounded-image {
+    border-radius: 20px; /* Adjust the radius to your preference */
+    overflow: hidden;
+}
+
 .promo_heading{
     font-family: var(--font10);
     font-size: 900;

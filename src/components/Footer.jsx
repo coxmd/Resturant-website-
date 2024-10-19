@@ -11,8 +11,9 @@ function Footer() {
             <div className='footer'>
 
                 <div className='footer-list list-1'>
-                    <h2  className="logo">DineEase.</h2>
-                    <p>Financial experts support or help you to to find out which way you can raise your funds more.</p>
+                    <h2  className="logo">Hungry Eyey</h2>
+                    <p>At Hungry Eye, your feedback and inquiries are important to us. Whether you have questions about your order, need assistance with our services, or simply want to share your experience, our team is here to help.
+                    </p>
                     <div className='icons'>
                         <h2><FaFacebookSquare /></h2>
                         <h2><FaInstagram /></h2>
@@ -29,10 +30,9 @@ function Footer() {
              style={{height: "22px", }}
               alt=""
             />
-            <a href="https://wa.me/+923189056206"> +92 3189056206</a>
+            <a href="https://wa.me/+923189056206"> +234 701 054 9192</a>
           </p>
-          <p> <a href="mailto:iambilalahmedraza@gmail.com">iambilalahmedraza@gmail.com</a></p>
-          <p>Talagang Road Chakwal Punjab Pakistan</p>
+          <p> <a href="mailto:iambilalahmedraza@gmail.com">nkemgmbit@gmail.com</a></p>
         </div>
 
                 <div className='footer-list'>

@@ -230,3 +230,55 @@
 .Btn:active {
     transform: translate(2px ,2px);
 }
+
+/* Add these styles to your Cart.css file */
+
+.checkout-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.checkout-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.checkout-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cart-button.secondary {
+    background-color: #666;
+}
+
+.cart-button.secondary:hover {
+    background-color: #555;
+}

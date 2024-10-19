@@ -1,4 +1,4 @@
-import { avatar1, avatar2, avatar3, blog1, blog2, blog3, burger1, burger2, burger3, burger4, burger5, burger6, burger7, drink1, drink2, drink3, drink4, picon1, picon2, picon4, picon5, pizza1, pizza2, pizza3, promo1, promo2, promo3, promo4, promo5, sandwich1, sandwich2 } from "../assets";
+import { avatar1, avatar2, avatar3, blog1, blog2, blog3, burger1, burger2, burger3, burger4, burger5, burger6, burger7, drink1, drink2, drink3, drink4, picon1, picon2, picon4, picon5, pizza1, pizza2, pizza3, promo1, promo2, promo3, promo4, promo5, sandwich1, sandwich2, bangaandstarch,beans,bitterleafsoup,edikangsoup,egusisoup,friedrice,friedrice1,jollofrice,ogbonosoup,seafoodokro,vegetablesoup,whitesoup } from "../assets";
 
 export const navLinks = [
     {
@@ -11,142 +11,142 @@ export const navLinks = [
         title: "Shop",
         link : './shop'
     },
-    {
-        id: "product",
-        title: "Account",
-        link : './signup'
-    },
-    {
-        id: "clients",
-        title: "Blogs",
-        link : './blogs'
-    },
+    // {
+    //     id: "product",
+    //     title: "Account",
+    //     link : './signup'
+    // },
+    // {
+    //     id: "clients",
+    //     title: "Blogs",
+    //     link : './blogs'
+    // },
 ];
 
 export const catagory =[
     {
         id: 1,
-        title: "Soft Drinks",
+        title: "Beans",
         icon: picon2,
-        description: "Its is all about Drinks",
-        img: promo2
+        description: "Its is all about Beans",
+        img: beans
     },
     {
         id: 2,
-        title: "Sandwich",
+        title: "Soup",
         icon: picon5,
-        description: "Its is all about Meat",
-        img: promo3
+        description: "Its is all about Soup",
+        img: bitterleafsoup
     },
     {
         id: 3,
-        title: "Burger",
+        title: "Banga and Starch",
         icon: picon4,
-        description: "Its is all about Burgers",
-        img: promo4
+        description: "Its is all about Banga and starch",
+        img: bangaandstarch
     },
     {
         id: 4,
-        title: "Pizza",
+        title: "Rice",
         icon: picon1,
-        description: "Its is all about Pizza",
-        img: promo5,
+        description: "Its is all about Rice",
+        img: friedrice,
     },
     {
         id: 4,
-        title: "Pizza",
+        title: "Fried Rice",
         icon: picon5,
-        description: "Its is all about Pizza",
-        img: promo1
+        description: "Its is all about Fried Rice",
+        img: friedrice1
     }
 ]
 export const food =[
     {
         id:0,
-        Name: "Burger",
-        pic : burger1,
-        catagory : "Burger",
-        Price : 60,
+        Name: "JollofRice",
+        pic : jollofrice,
+        catagory : "Cereals",
+        Price : 2000,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:1,
-        Name: "Pizza",
-        pic : pizza1,
-        catagory : "Pizza",
-        Price : 60,
+        Name: "Ogbono Soup",
+        pic : ogbonosoup,
+        catagory : "Soups",
+        Price : 2200,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:2,
-        Name: "Burger",
-        pic : burger2,
-        catagory : "Burger",
-        Price : 50,
+        Name: "Vegetables Soup",
+        pic : vegetablesoup,
+        catagory : "Soups",
+        Price : 1550,
         discount : 20,
         O_price: 80,
         clicked: false
     },
     {
         id:3,
-        Name: "Coca Cola",
-        pic : drink2,
-        catagory : "Drink",
-        Price : 25,
+        Name: "Seafood Okro Soup",
+        pic : seafoodokro,
+        catagory : "Soups",
+        Price : 1800,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:4,
-        Name: "Burger",
-        pic : burger5,
-        catagory : "Burger",
-        Price : 50,
+        Name: "Banga and Starch",
+        pic : bangaandstarch,
+        catagory : "Cereals",
+        Price : 2500,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:5,
-        Name: "Sandwich",
-        pic : sandwich2,
-        catagory : "Sandwich",
-        Price : 60,
+        Name: "beans",
+        pic : beans,
+        catagory : "Cereals",
+        Price : 1800,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:6,
-        Name: "Burger",
-        pic : burger6,
-        catagory : "Burger",
-        Price : 30,
+        Name: "Bitterleaf Soup",
+        pic : bitterleafsoup,
+        catagory : "Soups",
+        Price : 2500,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:7,
-        Name: "Fanta",
-        pic : drink1,
-        catagory : "Drink",
-        Price : 60,
+        Name: "Egusi Soup",
+        pic : egusisoup,
+        catagory : "Soups",
+        Price : 2300,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:8,
-        Name: "Burger",
-        pic : burger7,
-        catagory : "Burger",
-        Price : 60,
+        Name: "Edikang Soup",
+        pic : edikangsoup,
+        catagory : "Soups",
+        Price : 1700,
         discount : 10,
         O_price: 80,
         clicked: false
@@ -156,7 +156,7 @@ export const food =[
         Name: "Pepsi",
         pic : drink4,
         catagory : "Drink",
-        Price : 60,
+        Price : 400,
         discount : 10,
         O_price: 80,
         clicked: false
@@ -166,63 +166,51 @@ export const food =[
         Name: "Sprite",
         pic : drink3,
         catagory : "Drink",
-        Price : 60,
+        Price : 500,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:11,
-        Name: "Burger",
-        pic : burger4,
-        catagory : "Burger",
-        Price : 60,
+        Name: "Fried Rice",
+        pic : friedrice,
+        catagory : "Cereals",
+        Price : 1800,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:12,
-        Name: "Pizza",
-        pic : pizza2,
-        catagory : "Pizza",
-        Price : 60,
+        Name: "Fried Rice",
+        pic : friedrice1,
+        catagory : "Cereals",
+        Price : 1900,
         discount : 10,
         O_price: 80,
         clicked: false
     },
     {
         id:13,
-        Name: "Pizza",
-        pic : pizza3,
-        catagory : "Pizza",
-        Price : 60,
+        Name: "White Soup",
+        pic : whitesoup,
+        catagory : "Soups",
+        Price : 2100,
         discount : 10,
         O_price: 80,
         clicked: false
     },
-    {
-        id:14,
-        Name: "Burger",
-        pic : burger3,
-        catagory : "Burger",
-        Price : 20,
-        discount :5,
-        O_price: 80,
-        clicked: false
-    },
-    {
-        id:15,
-        Name: "sandwich",
-        pic : sandwich1,
-        catagory : "Sandwich",
-        Price : 60,
-        discount : 10,
-        O_price: 80,
-        clicked: false
-    },
-    
-    
+    // {
+    //     id:14,
+    //     Name: "Burger",
+    //     pic : burger3,
+    //     catagory : "Burger",
+    //     Price : 20,
+    //     discount :5,
+    //     O_price: 80,
+    //     clicked: false
+    // },
 ]
 
 export const people = [

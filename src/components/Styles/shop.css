@@ -3,6 +3,12 @@
     background-color: #f9f6f0;
     padding: 2rem;
 }
+
+.rounded-image {
+    border-radius: 20px; /* Adjust the radius to your preference */
+    overflow: hidden;
+}
+
 .shop-container>h1{
     font-family: Rubik, sans-serif;
 }

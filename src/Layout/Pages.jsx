@@ -35,8 +35,8 @@ function Pages() {
         <Features />
         <Delivery />
         <Deals />
-        <BlogCards />
-        <Testimonials />
+        {/* <BlogCards /> */}
+        {/* <Testimonials /> */}
         </div>
   );
 }
