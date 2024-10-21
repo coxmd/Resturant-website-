@@ -119,11 +119,11 @@ function Cart() {
 
         emailjs
             .sendForm(
-                process.env.REACT_APP_SERVICE_ID, // Replace with your EmailJS service ID
-                process.env.REACT_APP_TEMPLATE_ID, // Replace with your EmailJS template ID
+                'service_nalsanl', // Replace with your EmailJS service ID
+                'template_kjlsszi', // Replace with your EmailJS template ID
                 form.current,
                 {
-                    publicKey: process.env.REACT_APP_PUBLIC_KEY, // Replace with your EmailJS public key
+                    publicKey: 'Z0GNtSSwDVy0wA1YA', // Replace with your EmailJS public key
                 }
             )
             .then(
